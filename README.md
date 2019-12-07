@@ -22,3 +22,5 @@ apt install ssh
 apt install xcrysden 
 
 ```
+
+Restart VMware
