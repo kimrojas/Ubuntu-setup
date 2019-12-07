@@ -23,6 +23,7 @@ apt install open-vm-tools-desktop
 apt install vim
 apt install ssh
 apt install xcrysden 
+apt install htop
 
 ```
 Restart VMware
