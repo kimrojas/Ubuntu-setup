@@ -1,6 +1,15 @@
 # Ubuntu-setup
 
-## To use network proxy for updates
+## Pre-setup
+
+### Install Vmware with ubuntu (or other OS)
+
+See guide:
+
+https://www.youtube.com/watch?v=oyNjjzg-UXo
+
+
+### To use network proxy for updates
 
 sudo -i 
 
@@ -8,11 +17,7 @@ ubuntu@ubuntu:~$ cat /etc/apt/apt.conf
 ```
 Acquire::http::Proxy "http://Username:Password@proxy.foo.bar.edu.au:8080";
 ```
-https://www.youtube.com/watch?v=oyNjjzg-UXo
 
-
-
-vm tools: apt install open-vm-tools-desktop
 
 ## 1. Install essential programs
 ```
