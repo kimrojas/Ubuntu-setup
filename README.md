@@ -43,7 +43,8 @@ Install ssh
 
 ### Create ssh keys
 
-Note: This assumes that there are no previously generated ssh key, if there are please back it up.(Location of keys = ~/.ssh )
+Note: This assumes that there are no previously generated ssh key, if there are please back it up. \
+(Location of keys = ~/.ssh )
 
 ```
 ssh-keygen -t rsa -C "your_email@example.com"
