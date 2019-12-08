@@ -64,7 +64,7 @@ ssh-add
 
 ### Add ssh key to cluster
 
-copy the contents of ~/.ssh/id_rsa.pub to (cluster):~/.ssh/authorized_keys
+copy the contents of `~/.ssh/id_rsa.pub` to `(cluster):~/.ssh/authorized_keys`
 
 
 
