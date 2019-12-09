@@ -25,8 +25,8 @@ Ref: https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-th
 apt update
 apt upgrade
 
+sudo apt-get install ubuntu-restricted-extras
 apt install vim
-
 apt install xcrysden 
 apt install htop
 ```
