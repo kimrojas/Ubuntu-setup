@@ -13,11 +13,12 @@ https://www.youtube.com/watch?v=oyNjjzg-UXo
 
 sudo -i 
 
-ubuntu@ubuntu:~$ cat /etc/apt/apt.conf
+ubuntu@ubuntu:~$ cat /etc/apt/apt.conf.d/proxy.conf
 ```
 Acquire::http::Proxy "http://Username:Password@proxy.foo.bar.edu.au:8080";
 ```
 
+Ref: https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-the-proxy-for-apt-for-ubuntu-18-04/
 
 ## 1. Install essential programs
 ```
