@@ -30,6 +30,10 @@ apt install vim
 apt install xcrysden 
 apt install htop
 ```
+** Mouse wheel for VIM **
+add to ` set mouse=a` /etc/vim/vimrc  
+ref: https://stackoverflow.com/questions/40576522/enable-vi-mouse-wheel-scrolling-using-bash-on-ubuntu-on-windows-10/40715383
+
 
 **Optional for VMware**
 ```
