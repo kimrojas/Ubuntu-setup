@@ -139,6 +139,14 @@ sudo apt install ssh openssh-server openssh-client gedit firefox xcrysden
 *Note: I use this theme for gedit: http://en.leoiannacone.com/2014/12/monokai-theme-for-gedit-gtksourceview/ *
 
 #### D. Setting up python
+I am not fond of installing apps globally unless its too much of a hassle. In this section, I will locally install miniconda (as python) and pycharm (as editor)
+
++ D.1 Make an apps folder
+`mkdir ~/apps && cd ~/apps`
++ D.2 Download miniconda installer using:
+`wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe`
+*Note: Latest version is 3.7 as of the moment, change the link as needed in the future*
++ D.3 Install 
 
 
 
