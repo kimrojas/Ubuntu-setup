@@ -53,6 +53,12 @@ wsl --list --verbose
 
 > INSTALLATION DONE! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+## 2. (Optional) Windows terminal installation
+I personally don't like the limited features of the default Ubuntu terminal. It has no tabs and less customization but this one has more features. 
+
++ Open Micrsoft store
++ Install **Windows Terminal**
+
 ## 2. Initial Ubuntu setup
 
 #### A. Updates
