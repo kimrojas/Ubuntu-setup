@@ -14,8 +14,13 @@ The contents are:
 ### a. Windows features on or off
 #### a.1 (GUI) Open Windows features on or off 
 #### a.2 (GUI) Check the **| Virtual Machine Platform |** and **| Windows Subsystem for Linux |** options and restart (as **required**)
-*Note: If you wanna use the powershell method and "makes you feel programmer-ish" just**
-#### a.1 
+
+#### a.1 (Command-line) Open Powershell
+#### a.2 (Command-line) Enter these two command in the Powershell
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
 
 ### b. Download Linux distribution (Ubuntu 20.04 LTS)
 #### b.1 Open **Microsoft Store** 
