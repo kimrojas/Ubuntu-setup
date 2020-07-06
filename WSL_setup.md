@@ -53,6 +53,15 @@ wsl --list --verbose
 
 > INSTALLATION DONE! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+## 2. Initial Ubuntu setup
+
+#### A. Updates
++ Open Ubuntu terminal (*From here terminal = Ubuntu terminal)
++ Run:  
+```
+sudo apt update && sudo apt -y upgrade
+```
+
 
 
 References
