@@ -11,7 +11,7 @@ The contents are:
 
 ## 1. Installation of WSL
 
-### a. Windows features on or off
+### a. Windows features on or off (via GUI & Command-line method)
 #### a.1 (GUI) Open Windows features on or off 
 #### a.2 (GUI) Check the **| Virtual Machine Platform |** and **| Windows Subsystem for Linux |** options and restart (as **required**)
 
