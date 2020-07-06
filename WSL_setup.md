@@ -33,6 +33,7 @@ wsl --set-dafault-version 2
 ### C. Download Linux distribution (Ubuntu 20.04 LTS)
 + C.1 Open **Microsoft Store** 
 + C.2 Search **Ubuntu 20.04 LTS** and Click Install (~500 MB of download).  
+
 *Note 1: At the time of writing, Ubuntu 20.04 is the latest version.*  
 *Note 2: This setup guide is tested for Ubuntu specifically but "might" also work with other distributions (i.e. Kali and CentOS) with some changes to syntax.*  
 
