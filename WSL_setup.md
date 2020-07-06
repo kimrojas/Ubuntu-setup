@@ -53,11 +53,23 @@ wsl --list --verbose
 
 > INSTALLATION DONE! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-## 2. (Optional) Windows terminal installation
-I personally don't like the limited features of the default Ubuntu terminal. It has no tabs and less customization but this one has more features. 
+## 2. (Optional) Windows terminal installation and setup
+I personally don't like the limited features of the default Ubuntu terminal. It has no tabs and less customization but this one has more features. In this section, I explain how to install windows terminal and give a simple setup to polish the user interface (color, themes, etc.).
 
 + Open Micrsoft store
 + Install **Windows Terminal**
++ Open Terminal (from now on Windows terminal = terminal)
++ Press `Ctrl + , ` or **Settings** from the drop down menu to open Settings.json (open with any editor)
++ Change default profile from Powershell to Ubuntu
+  - Go to the section with `"name": "Ubuntu-20.04",`
+  - Copy the *guid* (the item enclosed by "{ }"
+  - Paste the guid of Ubuntu to the item in `"defaultProfile".`
+  - This will change the initial shell to be Ubuntu rather than the former Powershell
+  - Save (`Ctrl + s` or depens on your editor)
+  - Close the file and Terminal
+  - Re-open the Terminal and check if Ubuntu is the first tab to show... It should.
++ Fix 
+
 
 ## 2. Initial Ubuntu setup
 
