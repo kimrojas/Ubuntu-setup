@@ -141,14 +141,17 @@ sudo apt install ssh openssh-server openssh-client gedit firefox xcrysden
 #### D. Setting up python
 I am not fond of installing apps globally unless its too much of a hassle. In this section, I will locally install miniconda (as python) and pycharm (as editor)
 
-+ D.1 Make an apps folder
++ D.1 Make an apps folder  
 `mkdir ~/apps && cd ~/apps`
-+ D.2 Download miniconda installer using:
-`wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe`
++ D.2 Download miniconda installer using:  
+`wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
 *Note: Latest version is 3.7 as of the moment, change the link as needed in the future*
-+ D.3 Install 
-
-
++ D.3 Install Miniconda:  
+`chmod +x Miniconda3-latest-Linux-x86_64.sh && ./Miniconda3-latest-Linux-x86_64.sh`
+*Note 1: Read license (and agree to terms), and change installation location to `~/apps/miniconda3`*
+*Note 2: On "Do you want to initialize Miniconda 3 ...?" -> type yes *
++ D.4 Turn off initiate conda on startup by running:
+`echo "conda config --set auto_activate_base false" > ~/.condarc`
 
 References
 - https://docs.microsoft.com/en-us/windows/wsl/install-win10#install-your-linux-distribution-of-choice  
