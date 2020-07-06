@@ -6,3 +6,10 @@ The contents are:
 3. Initial setup for Ubuntu environment
 4. Installation of Microsoft terminal
 5. Setup of Microsoft terminal
+
+
+
+### 1. Installation of WSL
+
+#### a. Windows features on or off
+Check the **Virtual Machine Platform** and **Windows Subsystem for Linux** options and restart (as **required**)
