@@ -1,4 +1,4 @@
-# WSL2 Ubuntu 20.04 LTS setup guide
+# WSL 2 Ubuntu 20.04 LTS setup guide
 This is a step-by-step guide to configure Ubuntu through WSL.  
 The contents are:  
 1. Windows preparation for WSL 2
