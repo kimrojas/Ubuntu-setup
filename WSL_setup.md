@@ -51,4 +51,4 @@ wsl --list --verbose
 * Ubuntu-20.04    Running         2
 ```
 
-> INSTALLATION DONE! 
+> INSTALLATION DONE! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
