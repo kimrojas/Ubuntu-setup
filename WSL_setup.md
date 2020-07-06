@@ -1,4 +1,4 @@
-# WSL 2 Ubuntu 20.04 LTS setup guide
+# WSL 2 setup guide (Ubuntu 20.04 LTS) 
 This is a step-by-step guide to configure Ubuntu through WSL.  
 The contents are:  
 1. Windows preparation for WSL 2
@@ -52,3 +52,10 @@ wsl --list --verbose
 ```
 
 > INSTALLATION DONE! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+References
+- https://docs.microsoft.com/en-us/windows/wsl/install-win10#install-your-linux-distribution-of-choice  
+- https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel
+
