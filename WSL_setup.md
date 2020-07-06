@@ -116,8 +116,9 @@ I personally don't like the limited features of the default Ubuntu terminal. It 
 ## 2. Initial Ubuntu setup
 
 #### A. Updates
-+ Open Ubuntu terminal (*From here terminal = Ubuntu terminal)
-+ Run:  `sudo apt update && sudo apt -y upgrade`
++ A.1 Open Ubuntu terminal (*From here terminal = Ubuntu terminal)
++ A.2 Run:  `sudo apt update && sudo apt -y upgrade`
++ A.3 
 
 
 
