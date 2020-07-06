@@ -56,6 +56,7 @@ wsl --list --verbose
 ## 2. (Optional) Windows terminal installation and setup
 I personally don't like the limited features of the default Ubuntu terminal. It has no tabs and less customization but this one has more features. In this section, I explain how to install windows terminal and give a simple setup to polish the user interface (color, themes, etc.).
 
+#### A. Install windows terminal
 + Open Micrsoft store
 + Install **Windows Terminal**
 + Open Terminal (from now on Windows terminal = terminal)
@@ -68,7 +69,10 @@ I personally don't like the limited features of the default Ubuntu terminal. It 
   - Save (`Ctrl + s` or depens on your editor)
   - Close the file and Terminal
   - Re-open the Terminal and check if Ubuntu is the first tab to show... It should.
-+ Fix 
+
+#### B. Choose Theme
++ Go to https://atomcorp.github.io/themes/ and choose theme. Recommended themes are:  
+    DraculaPlus (prefer), Afterglow, Andromeda, Dark+, Elementary, Espresso, Firewatch, Liquidcarbon, Lovelace, MaterialsDarker, MonokaiRemastered, Jetbrains Darcula, Brogrammer
 
 
 ## 2. Initial Ubuntu setup
