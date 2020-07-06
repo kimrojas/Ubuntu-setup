@@ -19,8 +19,8 @@ The contents are:
 + A.1 (Command-line) Open Powershell  
 + A.2 (Command-line) Enter these two command in the Powershell  
 `
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`  
+`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 `
 
 ### B. WSL 2 preparation
