@@ -13,8 +13,8 @@ The contents are:
 
 A. Windows features on or off (via GUI & Command-line method)  
 
-   + A.1 (GUI) Open Windows features on or off   
-   + A.2 (GUI) Check the **| Virtual Machine Platform |** and **| Windows Subsystem for Linux |** options and restart (as **required**)  
+   A.1 (GUI) Open Windows features on or off   
+   A.2 (GUI) Check the **| Virtual Machine Platform |** and **| Windows Subsystem for Linux |** options and restart (as **required**)  
 
 A.1 (Command-line) Open Powershell  
 A.2 (Command-line) Enter these two command in the Powershell  
