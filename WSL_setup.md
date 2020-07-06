@@ -72,7 +72,10 @@ I personally don't like the limited features of the default Ubuntu terminal. It 
 
 #### B. Choose Theme
 + B.1 Go to https://atomcorp.github.io/themes/ and choose theme. Recommended themes are:  
-    `DraculaPlus (prefer), Afterglow, Andromeda, Dark+, Elementary, Espresso, Firewatch, Liquidcarbon, Lovelace, MaterialsDarker, MonokaiRemastered, Jetbrains Darcula, Brogrammer`
+    `MaterialsDark (preferred), DraculaPlus, Afterglow, Andromeda, Dark+, Elementary, Espresso, Firewatch, Liquidcarbon, Lovelace, MonokaiRemastered, Jetbrains Darcula, Brogrammer`
++ B.2 Click on `Get theme` (which will copy the code to your clipboard)
++ B.3 Open settings.json again (`Ctrl + ,`) and find the line `"schemes": [],`
++ B.4 Paste the code in between the `[]`. It should look like this:
 
 
 ## 2. Initial Ubuntu setup
