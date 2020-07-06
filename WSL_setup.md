@@ -57,11 +57,11 @@ wsl --list --verbose
 I personally don't like the limited features of the default Ubuntu terminal. It has no tabs and less customization but this one has more features. In this section, I explain how to install windows terminal and give a simple setup to polish the user interface (color, themes, etc.).
 
 #### A. Install windows terminal
-+ Open Micrsoft store
-+ Install **Windows Terminal**
-+ Open Terminal (from now on Windows terminal = terminal)
-+ Press `Ctrl + , ` or **Settings** from the drop down menu to open Settings.json (open with any editor)
-+ Change default profile from Powershell to Ubuntu
++ A.1 Open Micrsoft store
++ A.2 Install **Windows Terminal**
++ A.3 Open Terminal (from now on Windows terminal = terminal)
++ A.4 Press `Ctrl + , ` or **Settings** from the drop down menu to open Settings.json (open with any editor)
++ A.5 Change default profile from Powershell to Ubuntu
   - Go to the section with `"name": "Ubuntu-20.04",`
   - Copy the *guid* (the item enclosed by "{ }"
   - Paste the guid of Ubuntu to the item in `"defaultProfile".`
@@ -71,8 +71,8 @@ I personally don't like the limited features of the default Ubuntu terminal. It 
   - Re-open the Terminal and check if Ubuntu is the first tab to show... It should.
 
 #### B. Choose Theme
-+ Go to https://atomcorp.github.io/themes/ and choose theme. Recommended themes are:  
-    DraculaPlus (prefer), Afterglow, Andromeda, Dark+, Elementary, Espresso, Firewatch, Liquidcarbon, Lovelace, MaterialsDarker, MonokaiRemastered, Jetbrains Darcula, Brogrammer
++ B.1 Go to https://atomcorp.github.io/themes/ and choose theme. Recommended themes are:  
+    `DraculaPlus (prefer), Afterglow, Andromeda, Dark+, Elementary, Espresso, Firewatch, Liquidcarbon, Lovelace, MaterialsDarker, MonokaiRemastered, Jetbrains Darcula, Brogrammer`
 
 
 ## 2. Initial Ubuntu setup
