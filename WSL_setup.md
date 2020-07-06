@@ -9,7 +9,12 @@ The contents are:
 
 
 
-### 1. Installation of WSL
+## 1. Installation of WSL
 
-#### a. Windows features on or off
+### a. Windows features on or off
 Check the **| Virtual Machine Platform |** and **| Windows Subsystem for Linux |** options and restart (as **required**)
+
+### b. Download Linux distribution (Ubuntu 20.04 LTS)
+a.1 Open **Microsoft Store** and search **Ubuntu 20.04 LTS**.  
+*Note 1: At the time of writing, Ubuntu 20.04 is the latest version.*  
+*Note 2: This setup guide is tested for Ubuntu specifically but "might" also work with other distributions (i.e. Kali and CentOS) with some changes to syntax
