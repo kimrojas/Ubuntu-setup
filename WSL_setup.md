@@ -57,10 +57,7 @@ wsl --list --verbose
 
 #### A. Updates
 + Open Ubuntu terminal (*From here terminal = Ubuntu terminal)
-+ Run:  
-```
-sudo apt update && sudo apt -y upgrade
-```
++ Run:  `sudo apt update && sudo apt -y upgrade`
 
 
 
