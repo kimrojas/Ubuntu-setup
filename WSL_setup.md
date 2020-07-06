@@ -40,5 +40,11 @@ wsl --set-dafault-version 2
 ### D. Install Ubuntu 20.04 LTS
 + D.1 Launch Ubuntu 20.04 LTS (First time)  
 + D.2 Enter new UNIX username and password  
-+ D.3 Verification: In powershell run
++ D.3 Verification: In powershell, run:
+```
+wsl --list --verbose
+```
 
+*Example output*  
+>  NAME            STATE           VERSION
+>* Ubuntu-20.04    Running         2
