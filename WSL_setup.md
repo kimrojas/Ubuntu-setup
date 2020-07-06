@@ -135,7 +135,10 @@ I personally don't like the limited features of the default Ubuntu terminal. It 
 ```
 sudo apt install ssh openssh-server openssh-client gedit firefox xcrysden
 ```
++ C.2 Run a test app. Enter `gedit` in terminal... it should umm  be gedit.
+*Note: I use this theme for gedit: http://en.leoiannacone.com/2014/12/monokai-theme-for-gedit-gtksourceview/ *
 
+#### D. Setting up python
 
 
 
