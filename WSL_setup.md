@@ -11,7 +11,7 @@ The contents are:
 
 ## 1. Installation of WSL
 
-### A. Windows features on or off (via GUI & Command-line method)  
+#### A. Windows features on or off (via GUI & Command-line method)  
 
 + A.1 (GUI) Open Windows features on or off   
 + A.2 (GUI) Check the **| Virtual Machine Platform |** and **| Windows Subsystem for Linux |** options and restart (as **required**)  
@@ -23,21 +23,21 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-### B. WSL 2 preparation
+#### B. WSL 2 preparation
 + B.1 Download and install WSL 2 kernel (https://aka.ms/wsl2kernel)
 + B.2 Set WSL 2 as default: In powershell, run:    
 ```
 wsl --set-default-version 2
 ```
 
-### C. Download Linux distribution (Ubuntu 20.04 LTS)
+#### C. Download Linux distribution (Ubuntu 20.04 LTS)
 + C.1 Open **Microsoft Store** 
 + C.2 Search **Ubuntu 20.04 LTS** and Click Install (~500 MB of download).  
 
 *Note 1: At the time of writing, Ubuntu 20.04 is the latest version.*  
 *Note 2: This setup guide is tested for Ubuntu specifically but "might" also work with other distributions (i.e. Kali and CentOS) with some changes to syntax.*  
 
-### D. Install Ubuntu 20.04 LTS
+#### D. Install Ubuntu 20.04 LTS
 + D.1 Launch Ubuntu 20.04 LTS (First time)  
 + D.2 Enter new UNIX username and password  
 + D.3 Verification: In powershell, run:
