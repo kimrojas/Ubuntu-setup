@@ -25,7 +25,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 ### B. WSL 2 preparation
 + B.1 Download and install WSL 2 kernel (https://aka.ms/wsl2kernel)
-+ B.2 Set WSL 2 as default: Run `wsl --set-dafault-version 2` in Powershell
++ B.2 Set WSL 2 as default: In powershell, run 
+`wsl --set-dafault-version 2`
 
 ### C. Download Linux distribution (Ubuntu 20.04 LTS)
 #### b.1 Open **Microsoft Store** 
