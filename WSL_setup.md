@@ -45,8 +45,10 @@ wsl --set-dafault-version 2
 wsl --list --verbose
 ```
 
-*Example output*  
+*OUTPUT*  
 ```
   NAME            STATE           VERSION
 * Ubuntu-20.04    Running         2
 ```
+
+> INSTALLATION DONE! 
