@@ -12,4 +12,4 @@ The contents are:
 ### 1. Installation of WSL
 
 #### a. Windows features on or off
-Check the **Virtual Machine Platform** and **Windows Subsystem for Linux** options and restart (as **required**)
+Check the **| Virtual Machine Platform |** and **| Windows Subsystem for Linux |** options and restart (as **required**)
