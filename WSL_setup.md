@@ -31,16 +31,13 @@ wsl --set-dafault-version 2
 ```
 
 ### C. Download Linux distribution (Ubuntu 20.04 LTS)
-#### b.1 Open **Microsoft Store** 
-#### b.2 Search **Ubuntu 20.04 LTS** and Click Install (~500 MB of download).  
++ C.1 Open **Microsoft Store** 
++ C.2 Search **Ubuntu 20.04 LTS** and Click Install (~500 MB of download).  
 *Note 1: At the time of writing, Ubuntu 20.04 is the latest version.*  
 *Note 2: This setup guide is tested for Ubuntu specifically but "might" also work with other distributions (i.e. Kali and CentOS) with some changes to syntax.*  
 
-### c. Install Ubuntu 20.04 LTS
+### D. Install Ubuntu 20.04 LTS
++ D.1 Launch Ubuntu 20.04 LTS (First time)  
++ D.2 Enter new UNIX username and password  
++ D.3 Verification: In powershell run
 
-#### c.1 Launch Ubuntu 20.04 LTS (First time)
-#### c.2 Enter new UNIX username and password
-
-### d. WSL and WSL2 Manipulation
-
-*Note: WSL is just a compatability/translater layer while WSL 2 has a kernel. TLDR: WSL = fake linux, WSL 2 = real linux. *
