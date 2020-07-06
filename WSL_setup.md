@@ -46,5 +46,7 @@ wsl --list --verbose
 ```
 
 *Example output*  
->  NAME            STATE           VERSION
->* Ubuntu-20.04    Running         2
+```
+  NAME            STATE           VERSION
+* Ubuntu-20.04    Running         2
+```
