@@ -118,7 +118,24 @@ I personally don't like the limited features of the default Ubuntu terminal. It 
 #### A. Updates
 + A.1 Open Ubuntu terminal (*From here terminal = Ubuntu terminal)
 + A.2 Run:  `sudo apt update && sudo apt -y upgrade`
-+ A.3 
++ A.3 Initial VIM setup: Follow https://github.com/sickill/vim-monokai Instructions
++ A.3 (Alternative) https://github.com/crusoexia/vim-monokai
+*Note: my ~/.vimrc is in the folder for you to check*
+
+#### B. Enable GUI
+
++ B.1 Add the following to `~/.bashrc`: `export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
++ B.2 On windows setup an Xserver by following this video: https://www.youtube.com/watch?v=uL8nnuvybL8
+*Note: I also have a comment there regarding basic troubleshooting. TLDR: Make firewall exception for xserver and turn off native opengl*
++ B.3 Restart Terminal
+
+#### C. Install a essential apps (some with GUI)
+
++ C.1 Run this command
+```
+sudo apt install ssh openssh-server openssh-client gedit firefox xcrysden
+```
+
 
 
 
