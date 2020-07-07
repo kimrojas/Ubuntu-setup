@@ -62,6 +62,7 @@ Reference: https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-77
 copy ~/.ssh (old computer) to ~/.ssh (new computer)
 
 ```
+eval `ssh-agent -s`
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/*
 ssh-add
