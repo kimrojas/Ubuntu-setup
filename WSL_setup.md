@@ -153,6 +153,15 @@ I am not fond of installing apps globally unless its too much of a hassle. In th
 + D.4 Turn off initiate conda on startup by running:
 `echo "conda config --set auto_activate_base false" > ~/.condarc`
 
+
+### Issue/s
+
+Setting default user for imported distro:   
++ tldr = make /etc/wsl.conf 
++ https://github.com/microsoft/WSL/issues/3974
+
+
+
 References
 - https://docs.microsoft.com/en-us/windows/wsl/install-win10#install-your-linux-distribution-of-choice  
 - https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel
