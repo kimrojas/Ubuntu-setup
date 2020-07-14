@@ -156,6 +156,11 @@ I am not fond of installing apps globally unless its too much of a hassle. In th
 
 ### Issue/s
 
+Import/Export distro
++ Might be a way to create custom distro outside of microsoft store
++ import command = `wsl.exe --export <DistributionName> <FileName>`
++ export command = `wsl.exe --import <DistributionName> <InstallLocation> <FileName>`
+
 Setting default user for imported distro:   
 + tldr = make /etc/wsl.conf 
 + https://github.com/microsoft/WSL/issues/3974
