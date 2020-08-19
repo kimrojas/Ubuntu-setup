@@ -167,6 +167,28 @@ I am not fond of installing apps globally unless its too much of a hassle. In th
   <img src="img/xserver03.PNG" width="350">
 </p>
 
+### B. Setup of VcXsrv
+
++ B.1 Run `xlaunch.exe` in the installation directory
++ B.2 Follow the setup below. In the final set save your configuration.
+
+<p align="center">
+  <img src="img/xserver04.PNG" width="350"> <br>
+  <img src="img/xserver05.PNG" width="350"> <br>
+  <img src="img/xserver06.PNG" width="350">
+</p>
+
++ B.3 (optional but convenient) Create a shortcut or drag to taskbar the saved configuration (eg. in my case its `work.xlaunch`)
+
++ B.4 Create a firewall exception for `vcxsrv.exe` . If you have a firewall or anti-virus. (This is safe)
+
+### C. Usage
+
+Simply run your saved configuration (eg. work.xlaunch) and it should work already. Try running some GUI programs from WSL. 
+
+
+## HELP
+
 
 ### Issue/s
 
