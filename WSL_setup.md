@@ -161,6 +161,11 @@ I am not fond of installing apps globally unless its too much of a hassle. In th
 + A.1 Download [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)
 + A.2 Run and install the VcXsrv. Follow below:
 
+<p align="center">
+  <img src="img/xserver01.PNG" width="350">
+  <img src="img/xserver02.PNG" width="350">
+  <img src="img/xserver03.PNG" width="350">
+</p>
 
 
 ### Issue/s
