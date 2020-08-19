@@ -155,6 +155,13 @@ I am not fond of installing apps globally unless its too much of a hassle. In th
 + D.4 Turn off initiate conda on startup by running:
 `echo "conda config --set auto_activate_base false" > ~/.condarc`
 
+## 3. Install GUI (Required)
+
+### A. Download and install "VcXsrv Windows X Server"
++ A.1 Download [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)
++ A.2 Run and install the VcXsrv. Follow below:
+
+
 
 ### Issue/s
 
