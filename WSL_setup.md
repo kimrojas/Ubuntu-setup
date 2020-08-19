@@ -1,4 +1,6 @@
 # WSL 2 setup guide (Ubuntu 20.04 LTS) 
+### **Requires Windows Version 2004 (OS Build 19041.450) or later**
+
 This is a step-by-step guide to configure Ubuntu through WSL.  
 The contents are:  
 1. Windows preparation for WSL 2
